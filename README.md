@@ -3,10 +3,10 @@ This project is about a sample portfolio webpage. The webpage has basic componen
 This was made as part of Udacity course.
 # Parts of the code
 There are 4 files used for this-
-1) html-myPortfolio.html - It has all the HTML for the webpage.
-2) css-myPortfolio.css - It contains all CSS used in the webpage.
-3) img-creativity.jpg - This is a placeholder image that is used throughout the webpage and will be replaced later as we add projects
-4) img-udacity-logo - This is udacity logo used on top of webpage because of lack of an alternate logo
+1) index.html - It has all the HTML for the webpage.
+2) myPortfolio.css - It contains all CSS used in the webpage.
+3) creativity.jpg - This is a placeholder image that is used throughout the webpage and will be replaced later as we add projects
+4) udacity-logo - This is udacity logo used on top of webpage because of lack of an alternate logo
 # Guidelines to use
 1) Clone all four files on your computer. Keep them in the same folder
 2) Run html-myPortfolio.html by double clicking. It should open in your web browser.
