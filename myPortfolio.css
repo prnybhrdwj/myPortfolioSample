@@ -1,0 +1,200 @@
+/*Apply basic border-box to all elements*/
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Removing default padding and margins created by different browsers*/            
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Common class for changing cursor to pointer when hovering over or clicking links*/
+a, a:hover {
+    cursor: pointer;
+}
+
+
+/*First media query for less than 540px screens*/
+@media screen and (max-width: 540px) {
+    
+    /*CSS for header and included items is covered here*/
+    header {
+        height: 200px;
+        padding: 10px 5px 120px 5px;
+        width: 100%;
+        border-bottom: 4px solid grey;
+    }
+    
+    #logo-image {
+        display: block;
+        margin: 10px auto;
+    }
+    
+    #name-and-title-container {
+        margin: 0 auto;
+        text-align: center;
+        height: 45%;
+    }
+
+    #name-text {
+        font-size: 25px;
+        margin: 0px;
+    }
+    
+    /*CSS for about me section and included items is covered here*/
+    article {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    article figure {
+        width: 100%;
+        margin: 0px;
+    }
+
+    article figure img {
+        margin: 15px 0px 0px 0px;
+        width: 100%;
+    }
+    
+    article div {
+        width: 100%;
+        padding: 0px 20px 20px 10px;
+        text-align: center;
+    }
+    
+    /*CSS for my projects and included items is covered here*/
+    #myProjects-section {
+        width: 100%;
+    }
+
+    section h1{
+        text-align: center;
+        color: #7d97ad;
+    }
+    
+    section h3, p {
+        text-align: center;
+    }
+    
+    #my-projects-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .projects img {
+        width: 100%;
+    }
+
+    /*CSS for footer and included items is covered here*/
+    footer {
+        width: 100%;
+        text-align: center;
+        height: 20px;
+        background-color: #02b3e4;
+        color: white;
+    }
+}
+
+/*Second media query for greater than 541px screens*/
+@media screen and (min-width: 541px) {
+    
+    /*CSS for header and included items is covered here*/
+    header {
+        height: 100px;
+        padding: 20px 15px 100px 15px;
+        width: 100%;
+        border-bottom: 4px solid grey;
+    }
+    
+    #name-and-title-container {
+        float: right;
+        width: 80%;
+        height: 100px;
+    }
+
+    #name-text {
+        font-size: 40px;
+        margin: 0px;
+        text-align: right;
+    }
+    
+    #title-text {
+        font-size: 25px;
+        margin-top: 10px;
+        text-align: right; 
+    }
+    
+    /*CSS for about me section and included items is covered here*/
+    article {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    article figure {
+        width: 70%;
+        margin: 0px;
+    }
+    
+    article figure img {
+        margin: 15px 0px 15px 0px;
+        width: 100%;
+    }
+
+    article div {
+        width: 30%;
+        padding: 20px 20px 20px 10px;
+        text-align: justify;
+    }
+    
+    article div h1 {
+        text-align: left;
+    }
+    
+    article div p {
+        text-align: justify;
+    }
+    
+    /*CSS for my projects and included items is covered here*/
+    #myProjects-section {
+        width: 100%;
+    }
+    
+    section h1{
+        padding-left: 15px;
+        color: #7d97ad;
+    }
+    
+    section h3, p {
+        text-align: center;
+    }
+    
+    #my-projects-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects {
+        width: 33.33%; 
+    }
+
+    .projects img {
+        border: 6px solid white;
+        width: 100%;
+    }
+    
+    /*CSS for footer and included items is covered here*/
+    footer {
+        width: 100%;
+        text-align: center;
+        height: 20px;
+        background-color: #02b3e4;
+        color: white;
+    }
+}
